@@ -1,0 +1,632 @@
+
+/*body styles*/
+
+
+body{
+font-family: 'aaarghnormal';
+font-weight: normal;
+font-style: normal;
+}
+
+
+/*compound styles*/
+
+
+header,article , main, section.footnav{
+	width:960px;
+	margin:0 auto ;
+}
+section.nav,footer{
+	background-color:#0CF;
+}
+
+
+.cf:before,
+.cf:after {
+	content: "";
+	display: block;	
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	zoom: 1; /* for old ie - triger has layout - ie sucks it */
+	}
+
+nav a{
+	text-decoration:none;
+	text-align:center;
+	padding:10px;
+	margin-right:5px;
+}
+
+.nav nav a:hover,
+.nav nava:focus{
+	color:#FFF;
+	background-color:#033;
+}
+
+.footnav nav a:hover,
+.footnav nava:focus{
+	background-color:#069;
+	color:#FFF;
+}
+
+.profile li.gprofile a, .categories li.gcategories a,.about li.gabout a, .upload li.gupload a{
+	color:#FFF;
+	background-color:#033;
+} 
+.home li.nhome a,.profile li.nprofile a, .categories li.ncategories a,.about li.nabout a, .upload li.nupload a{
+	background-color:#069;
+	color:#FFF;
+}
+
+.home, .profile,.about,.categories header{
+	padding-bottom:5px;
+}
+
+
+/*header styles*/
+
+
+header ul{
+	padding-top:120px;
+}
+
+header ul li{
+	display:inline;
+}
+
+header{
+	padding-bottom:10px;
+}
+
+header h1{
+	background:url(../images/head-logo.png) no-repeat;
+	text-indent:-99999px;
+	float:left;
+	margin-right:580px;
+}
+header h1 a{
+	display:block;
+	width:202px;
+	height:136px;
+}
+
+/*nav styles*/
+
+.nav .nav{
+	position:relative;
+}
+
+.nav .nav nav{
+	padding-top:10px;
+	width:400px;
+	float:left;
+}
+
+footer section.footnav nav{
+	padding-top:5px;
+}
+
+.nav nav ul{
+	width:380px;
+}
+
+nav ul li{
+	float:left;
+
+}
+
+nav ul li a{
+	display:block;
+	padding-right:10px;
+	color:#FFF;
+}
+
+/*section styles*/
+
+
+section.user{
+	background-color:#069;
+	padding: 10px 0;
+	height:75px;
+}
+
+section.user img{
+	float:left;
+	padding-right:10px;
+}
+
+section.user h1{
+	font-size:37px;
+	color:#0CC;
+}
+
+section.user h2{
+	font-size:14px;
+	color:#FFF;
+}
+
+section.user a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+section.user a:hover{
+	text-decoration:underline;
+}
+
+.index main section{
+	width:635px;
+	height:305px;
+	background-color:#FFF;
+	margin:0 auto;
+	padding-left:20px;
+	padding-top: 15px;
+	border-color:#069;
+	border-style:solid;
+}
+
+.join main section.jsect{
+	background:#FFF;
+	margin:40px auto;
+	border-color:#069;
+	border-style:solid;
+	width:600px;
+	padding:15px;	
+}
+
+section.comments{
+	background:#09c;
+	width:410px;
+	padding:20px;
+
+}
+
+section.comments h3,
+section.comments p {
+	color:#FFF;
+}
+
+.category main section.comments h3{
+	float:left;
+}
+
+.category main section.comments li{
+	color:#3cf;
+}
+
+.edit main section#message{
+	padding-top:20px;
+}
+
+/*article styles*/
+
+
+article.nav{
+	height:55px;
+}
+
+.search main figure{
+	width:30%;
+	margin:10px;
+}
+
+.search main figure a{
+	display:block;
+}
+
+/*main styles*/
+
+
+main{
+	padding:20px 0;
+	min-height:645px;
+}
+
+.home main a{
+	display:block;
+}
+
+.index main h1{
+	font-size:38px;
+}
+
+
+.index main h2{
+	font-size:24px;
+}
+
+.index main h3{
+	font-size:34px;
+}
+
+.index main h4{
+	font-size:18px;
+}
+
+.index main{
+	background:url(../images/index-back.png) no-repeat;
+	height:800px;
+}
+
+
+.signin main h2{
+	font-size:20px;
+}
+
+.join main h2{
+	font-size: 27px;
+}
+
+h1{
+	font-size:24px;
+	padding-bottom:10px;
+}
+
+h1,h3{
+	color:#033;
+}
+
+main h2{
+	color:#069;
+	font-size:16px;
+	padding-bottom: 50px;
+}
+.terms,.about main h2{
+	color:#069;
+	font-size:16px;
+	padding-bottom:10px;
+}
+
+h3{
+	font-size:22px;
+	padding-bottom:20px;
+}
+
+main p{
+	line-height:24px;
+	margin-bottom: 15px;
+	text-indent:10px;
+}
+
+h3.actionbutton{
+	background-color:#3cf;
+	display:inline;
+	padding:5px;
+}
+
+h3.actionbutton a{
+	color:#FFF;
+	text-decoration:none;
+
+}
+
+h3.actionbutton a:hover{
+	text-decoration: underline;
+}
+
+.index h4{
+	display:inline;
+}
+
+h4.subbutton{
+	background-color:#069;
+	display:inline;
+	padding:5px;
+}
+
+h4.subbutton a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+h4.subbutton a:hover{
+	text-decoration: underline;
+}
+
+.about img{
+	float:left;
+	padding-bottom:10px;
+	padding-right:10px;
+}
+
+.join main{
+	background:url(../images/register-back.png) no-repeat;
+	height:750px;
+}
+
+.single main img{
+	padding-bottom:20px;
+}
+.single ul.sinfo li {
+	display:inline;
+	padding-right:20px;
+	font-size:14px;
+	color:#069;
+}
+
+main a{
+	color:#069;
+}
+.signin main{
+	width:200px;
+	margin:0 auto;
+} 
+
+main .hfig{
+	margin:10px;
+	width:30%;
+	float:left;
+}
+
+.single main ul.errors{
+	padding-bottom:30px;
+	line-height: 32px;
+}
+
+.join figure{
+	width:228px;
+	height:162px;
+}
+
+.sinfo{
+	margin-bottom:15px;
+}
+
+/*figure styles*/
+.index figure{
+	width:228px;
+	height:162px;
+}
+
+.categories main figure{
+	width:300px;
+	height:168px;
+	float:left;
+	margin:10px 10px;
+}
+
+.categories figure.photography {
+	background:url(../images/photography.jpg);
+	background-position: 0 -168px;
+
+}
+
+.categories figure.drawings {
+	background:url(../images/drawing.jpg) no-repeat;
+	background-position: 0 -169px;
+
+}
+
+.categories figure.paintings {
+	background:url(../images/painting.jpg) no-repeat;
+	background-position: 0 -169px;
+
+}
+
+.categories figure.sculptures {
+	background:url(../images/sculpture.jpg) no-repeat;
+	background-position: 0 -169px;
+
+}
+
+.categories figure.tattoos {
+	background:url(../images/tattoo.jpg) no-repeat;
+	background-position: 0 -169px;
+}
+
+.categories figure.illustration {
+	background:url(../images/illustrate.jpg) no-repeat;
+	background-position: 0 -169px;
+}
+
+.categories figure.photography:hover,
+.categories figure.photography:focus
+ {
+	background:url(../images/photography.jpg) no-repeat;
+
+}
+
+.categories figure.drawings:hover,
+.categories figure.drawings:focus
+ {
+	background:url(../images/drawing.jpg) no-repeat;
+
+}
+
+.categories figure.paintings:hover,
+.categories figure.paintings:focus
+ {
+	background:url(../images/painting.jpg) no-repeat;
+
+}
+
+.categories figure.sculptures:hover,
+.categories figure.sculptures:focus
+ {
+	background:url(../images/sculpture.jpg) no-repeat;
+
+}
+
+.categories figure.tattoos:hover,
+.categories figure.tattoos:focus
+ {
+	background:url(../images/tattoo.jpg) no-repeat;
+
+}
+
+.categories figure.illustration:hover,
+.categories figure.illustration:focus
+ {
+	background:url(../images/illustrate.jpg) no-repeat;
+
+}
+
+figure.comment{
+	background-color:#069;
+	padding:10px;
+	margin-bottom:10px;
+}
+figure.comment h3{
+	display:inline;
+}
+figure.comment p{
+	display:inline;
+}
+
+/*footer styles*/
+
+section.footnav{
+	position:relative;
+	width:960px;
+}
+
+footer{
+	height:60px;
+}
+
+footer ul{
+	padding-top:10px;
+}
+span.sans{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+footer h5{
+	display:block;
+}
+ footer nav {
+ 	width:560px;
+ }
+
+li.actionbutton{
+	background-color:#0099cc;
+	padding:5px;
+}
+li.actionbutton:hover,
+li.actionbutton:focus{
+	background-color:#069;
+}
+li.actionbutton a{
+	color:#FFF;
+}
+
+footer h5{
+	position:absolute;
+	top:20px;
+	left:870px;
+	color:#FFF;
+	font-size:14px;
+}
+
+footer ul li a{
+	font-size:14px;
+}
+
+
+/*form styles*/
+
+form#searchform{
+	/*width:200px;*/
+	float:right;
+	padding-top:10px;
+}
+
+form#eform textarea{
+	width:75%;
+	height:100px;
+}
+
+.joinus, .sign_in input{
+	display:block;
+	margin-bottom:20px;
+}
+
+input[type="submit"]{
+	background-color:#3cf;
+	color:#FFF;
+	border:none;
+	padding:5px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+	background-color:#069;
+	color:#FFF;
+	border:none;
+	padding:5px;
+}
+
+input[value=">"]{
+	background-color:#09c;
+	color:#FFF;
+	border:none;
+}
+
+input[name="search"]{
+	background-color:#09c;
+	color:#FFF;
+	border:none;
+	padding:5px;
+}
+
+main input,textarea,label {
+	display:block;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+main textarea{
+	margin-bottom:10px;
+}
+
+span{
+	font-size:12px;
+	color:#0d6980;
+}
+
+.comments form label{
+	padding-top:20px;
+}
+
+.comments form textarea{
+	width:400px;
+}
+
+label{
+	color:#069;
+}
+
+.upload form input[type="checkbox"]{
+	display:inline;
+}
+
+/* @font-face fonts */
+
+
+@font-face {
+    font-family: 'bonvenocflight';
+    src: url('BonvenoCF-Light-webfont.eot');
+    src: url('BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BonvenoCF-Light-webfont.woff') format('woff'),
+         url('BonvenoCF-Light-webfont.ttf') format('truetype'),
+         url('BonvenoCF-Light-webfont.svg#bonvenocflight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aaarghnormal';
+    src: url('Aaargh-webfont.eot');
+    src: url('Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Aaargh-webfont.woff') format('woff'),
+         url('Aaargh-webfont.ttf') format('truetype'),
+         url('Aaargh-webfont.svg#aaarghnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
